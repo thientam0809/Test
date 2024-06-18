@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (5.8.0)
+  - Nimble (12.3.0)
+  - Quick (7.3.0)
+  - SDWebImage (5.18.2):
+    - SDWebImage/Core (= 5.18.2)
+  - SDWebImage/Core (5.18.2)
+
+DEPENDENCIES:
+  - Alamofire (= 5.8.0)
+  - Nimble (= 12.3.0)
+  - Quick (= 7.3.0)
+  - SDWebImage (= 5.18.2)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Nimble
+    - Quick
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
+  Nimble: f8a8219d16f176429b951e8f7e72df5c23ceddc0
+  Quick: d32871931c05547cb4e0bc9009d66a18b50d8558
+  SDWebImage: c0de394d7cf7f9838aed1fd6bb6037654a4572e4
+
+PODFILE CHECKSUM: 7d91733045937362557aa5ab730a40db2f0c3a78
+
+COCOAPODS: 1.15.2
