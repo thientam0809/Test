@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		269E6E74E71132FC98B379E2 /* Pods_BaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777B585C54AD1271A87E19CF /* Pods_BaseProject.framework */; };
 		6F057A8D2C1DD42200B3195A /* HomeViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F057A8C2C1DD42200B3195A /* HomeViewModelTest.swift */; };
-		6F057A942C1E825E00B3195A /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F057A932C1E825E00B3195A /* Workout.swift */; };
 		6F057A962C1E925900B3195A /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F057A952C1E925900B3195A /* BaseView.swift */; };
 		6F057A992C1E92FC00B3195A /* AssignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F057A982C1E92FC00B3195A /* AssignmentView.swift */; };
 		6F057A9B2C1E932E00B3195A /* AssignmentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F057A9A2C1E932E00B3195A /* AssignmentView.xib */; };
@@ -20,6 +19,18 @@
 		6F057AA72C1EE96200B3195A /* workouts.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F057AA62C1EE96200B3195A /* workouts.json */; };
 		6F057AA82C1EEAA300B3195A /* workouts.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F057AA62C1EE96200B3195A /* workouts.json */; };
 		6F057AB02C1EFAF600B3195A /* CacheWorkoutImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F057AAF2C1EFAF600B3195A /* CacheWorkoutImplementation.swift */; };
+		6F057AB22C214AF600B3195A /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F057AB12C214AF600B3195A /* Workout.swift */; };
+		6F057AB42C214B2900B3195A /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F057AB32C214B2900B3195A /* AppConfiguration.swift */; };
+		6F057AC02C214B8200B3195A /* APIWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F057AB52C214B8100B3195A /* APIWorkout.swift */; };
+		6F057AC12C214B8200B3195A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 6F057AB72C214B8100B3195A /* .gitkeep */; };
+		6F057AC22C214B8200B3195A /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F057AB82C214B8100B3195A /* Error.swift */; };
+		6F057AC32C214B8200B3195A /* RequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F057AB92C214B8100B3195A /* RequestSerializer.swift */; };
+		6F057AC42C214B8200B3195A /* ResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F057ABA2C214B8100B3195A /* ResponseSerializer.swift */; };
+		6F057AC52C214B8200B3195A /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F057ABB2C214B8100B3195A /* TargetType.swift */; };
+		6F057AC62C214B8200B3195A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 6F057ABD2C214B8100B3195A /* .gitkeep */; };
+		6F057AC72C214B8200B3195A /* PokemonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F057ABE2C214B8100B3195A /* PokemonService.swift */; };
+		6F057ACA2C214BA200B3195A /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F057AC82C214BA200B3195A /* String.swift */; };
+		6F057ACB2C214BA200B3195A /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F057AC92C214BA200B3195A /* App.swift */; };
 		6F697D8B2C173341006F810D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697D8A2C173341006F810D /* AppDelegate.swift */; };
 		6F697D8D2C173342006F810D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697D8C2C173342006F810D /* SceneDelegate.swift */; };
 		6F697D942C173343006F810D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F697D932C173343006F810D /* Assets.xcassets */; };
@@ -37,20 +48,9 @@
 		6F697DD62C1737DF006F810D /* UICollectionViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697DCB2C1737DF006F810D /* UICollectionViewExt.swift */; };
 		6F697DD72C1737DF006F810D /* OptionalExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697DCC2C1737DF006F810D /* OptionalExt.swift */; };
 		6F697DD82C1737DF006F810D /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697DCD2C1737DF006F810D /* UIViewController.swift */; };
-		6F697DDA2C1737F0006F810D /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697DD92C1737F0006F810D /* AppConfiguration.swift */; };
-		6F697DDC2C173805006F810D /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697DDB2C173805006F810D /* App.swift */; };
-		6F697DDE2C17380B006F810D /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697DDD2C17380B006F810D /* String.swift */; };
-		6F697DE62C173873006F810D /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697DE02C173873006F810D /* Error.swift */; };
-		6F697DE72C173873006F810D /* RequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697DE12C173873006F810D /* RequestSerializer.swift */; };
-		6F697DE82C173873006F810D /* ResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697DE22C173873006F810D /* ResponseSerializer.swift */; };
-		6F697DE92C173873006F810D /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697DE32C173873006F810D /* TargetType.swift */; };
-		6F697DED2C17388A006F810D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 6F697DEA2C173889006F810D /* .gitkeep */; };
-		6F697DEE2C17388A006F810D /* PokemonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697DEB2C173889006F810D /* PokemonService.swift */; };
-		6F697DF12C173895006F810D /* APIWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697DEF2C173895006F810D /* APIWorkout.swift */; };
 		6F697DF52C173ADF006F810D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697DF32C173ADF006F810D /* HomeViewController.swift */; };
 		6F697DF62C173ADF006F810D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F697DF42C173ADF006F810D /* HomeViewController.xib */; };
 		6F697DF82C173B01006F810D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697DF72C173B01006F810D /* HomeViewModel.swift */; };
-		6F697DFD2C173CFE006F810D /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697DFA2C173CFE006F810D /* Pokemon.swift */; };
 		6F697E012C173EC5006F810D /* HomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697E002C173EC5006F810D /* HomeUseCase.swift */; };
 		6F697E032C173EE9006F810D /* HomeUseCaseImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697E022C173EE9006F810D /* HomeUseCaseImplementation.swift */; };
 		6F697E052C1748E8006F810D /* HomeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697E042C1748E8006F810D /* HomeRepository.swift */; };
@@ -84,7 +84,6 @@
 		44DD4C9B2F21316B429481F1 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		6209AB24233164FC71AD1AF0 /* Pods-BaseProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProjectTests.release.xcconfig"; path = "Target Support Files/Pods-BaseProjectTests/Pods-BaseProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		6F057A8C2C1DD42200B3195A /* HomeViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTest.swift; sourceTree = "<group>"; };
-		6F057A932C1E825E00B3195A /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		6F057A952C1E925900B3195A /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		6F057A982C1E92FC00B3195A /* AssignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentView.swift; sourceTree = "<group>"; };
 		6F057A9A2C1E932E00B3195A /* AssignmentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AssignmentView.xib; sourceTree = "<group>"; };
@@ -94,6 +93,18 @@
 		6F057AA32C1ECED700B3195A /* AssignmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentViewModel.swift; sourceTree = "<group>"; };
 		6F057AA62C1EE96200B3195A /* workouts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = workouts.json; sourceTree = "<group>"; };
 		6F057AAF2C1EFAF600B3195A /* CacheWorkoutImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheWorkoutImplementation.swift; sourceTree = "<group>"; };
+		6F057AB12C214AF600B3195A /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		6F057AB32C214B2900B3195A /* AppConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		6F057AB52C214B8100B3195A /* APIWorkout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIWorkout.swift; sourceTree = "<group>"; };
+		6F057AB72C214B8100B3195A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		6F057AB82C214B8100B3195A /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		6F057AB92C214B8100B3195A /* RequestSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestSerializer.swift; sourceTree = "<group>"; };
+		6F057ABA2C214B8100B3195A /* ResponseSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSerializer.swift; sourceTree = "<group>"; };
+		6F057ABB2C214B8100B3195A /* TargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
+		6F057ABD2C214B8100B3195A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		6F057ABE2C214B8100B3195A /* PokemonService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonService.swift; sourceTree = "<group>"; };
+		6F057AC82C214BA200B3195A /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		6F057AC92C214BA200B3195A /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		6F697D872C173341006F810D /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F697D8A2C173341006F810D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F697D8C2C173342006F810D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,21 +126,9 @@
 		6F697DCB2C1737DF006F810D /* UICollectionViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UICollectionViewExt.swift; path = ../../../TemplateIOS/iOSTemplates/Library/Ext/UICollectionViewExt.swift; sourceTree = "<group>"; };
 		6F697DCC2C1737DF006F810D /* OptionalExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OptionalExt.swift; path = ../../../TemplateIOS/iOSTemplates/Library/Ext/OptionalExt.swift; sourceTree = "<group>"; };
 		6F697DCD2C1737DF006F810D /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = ../../../TemplateIOS/iOSTemplates/Library/Ext/UIViewController.swift; sourceTree = "<group>"; };
-		6F697DD92C1737F0006F810D /* AppConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppConfiguration.swift; path = ../../../TemplateIOS/iOSTemplates/Manager/AppConfiguration.swift; sourceTree = "<group>"; };
-		6F697DDB2C173805006F810D /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = App.swift; path = ../../../TemplateIOS/iOSTemplates/Define/App.swift; sourceTree = "<group>"; };
-		6F697DDD2C17380B006F810D /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = String.swift; path = ../../../TemplateIOS/iOSTemplates/Define/String.swift; sourceTree = "<group>"; };
-		6F697DDF2C173873006F810D /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		6F697DE02C173873006F810D /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
-		6F697DE12C173873006F810D /* RequestSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestSerializer.swift; sourceTree = "<group>"; };
-		6F697DE22C173873006F810D /* ResponseSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSerializer.swift; sourceTree = "<group>"; };
-		6F697DE32C173873006F810D /* TargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
-		6F697DEA2C173889006F810D /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		6F697DEB2C173889006F810D /* PokemonService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonService.swift; sourceTree = "<group>"; };
-		6F697DEF2C173895006F810D /* APIWorkout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIWorkout.swift; sourceTree = "<group>"; };
 		6F697DF32C173ADF006F810D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		6F697DF42C173ADF006F810D /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		6F697DF72C173B01006F810D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		6F697DFA2C173CFE006F810D /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		6F697E002C173EC5006F810D /* HomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCase.swift; sourceTree = "<group>"; };
 		6F697E022C173EE9006F810D /* HomeUseCaseImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCaseImplementation.swift; sourceTree = "<group>"; };
 		6F697E042C1748E8006F810D /* HomeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRepository.swift; sourceTree = "<group>"; };
@@ -206,6 +205,35 @@
 			path = CustomView;
 			sourceTree = "<group>";
 		};
+		6F057AB62C214B8100B3195A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6F057AB52C214B8100B3195A /* APIWorkout.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6F057ABC2C214B8100B3195A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6F057AB72C214B8100B3195A /* .gitkeep */,
+				6F057AB82C214B8100B3195A /* Error.swift */,
+				6F057AB92C214B8100B3195A /* RequestSerializer.swift */,
+				6F057ABA2C214B8100B3195A /* ResponseSerializer.swift */,
+				6F057ABB2C214B8100B3195A /* TargetType.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6F057ABF2C214B8100B3195A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6F057ABD2C214B8100B3195A /* .gitkeep */,
+				6F057ABE2C214B8100B3195A /* PokemonService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		6F697D7E2C173341006F810D = {
 			isa = PBXGroup;
 			children = (
@@ -268,8 +296,8 @@
 		6F697DBA2C1736E3006F810D /* Define */ = {
 			isa = PBXGroup;
 			children = (
-				6F697DDD2C17380B006F810D /* String.swift */,
-				6F697DDB2C173805006F810D /* App.swift */,
+				6F057AC92C214BA200B3195A /* App.swift */,
+				6F057AC82C214BA200B3195A /* String.swift */,
 			);
 			path = Define;
 			sourceTree = "<group>";
@@ -296,7 +324,7 @@
 		6F697DBC2C173738006F810D /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				6F697DD92C1737F0006F810D /* AppConfiguration.swift */,
+				6F057AB32C214B2900B3195A /* AppConfiguration.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -304,9 +332,9 @@
 		6F697DBD2C173741006F810D /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				6F697DF02C173895006F810D /* API */,
-				6F697DEC2C173889006F810D /* Service */,
-				6F697DE42C173873006F810D /* Core */,
+				6F057AB62C214B8100B3195A /* API */,
+				6F057ABC2C214B8100B3195A /* Core */,
+				6F057ABF2C214B8100B3195A /* Service */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -352,38 +380,6 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		6F697DE42C173873006F810D /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				6F697DDF2C173873006F810D /* .gitkeep */,
-				6F697DE02C173873006F810D /* Error.swift */,
-				6F697DE12C173873006F810D /* RequestSerializer.swift */,
-				6F697DE22C173873006F810D /* ResponseSerializer.swift */,
-				6F697DE32C173873006F810D /* TargetType.swift */,
-			);
-			name = Core;
-			path = ../../../TemplateIOS/iOSTemplates/Network/Core;
-			sourceTree = "<group>";
-		};
-		6F697DEC2C173889006F810D /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				6F697DEA2C173889006F810D /* .gitkeep */,
-				6F697DEB2C173889006F810D /* PokemonService.swift */,
-			);
-			name = Service;
-			path = ../../../TemplateIOS/iOSTemplates/Network/Service;
-			sourceTree = "<group>";
-		};
-		6F697DF02C173895006F810D /* API */ = {
-			isa = PBXGroup;
-			children = (
-				6F697DEF2C173895006F810D /* APIWorkout.swift */,
-			);
-			name = API;
-			path = ../../../TemplateIOS/iOSTemplates/Network/API;
-			sourceTree = "<group>";
-		};
 		6F697DF22C173AC5006F810D /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -399,8 +395,7 @@
 		6F697DFB2C173CFE006F810D /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				6F697DFA2C173CFE006F810D /* Pokemon.swift */,
-				6F057A932C1E825E00B3195A /* Workout.swift */,
+				6F057AB12C214AF600B3195A /* Workout.swift */,
 			);
 			name = Entities;
 			path = ../../TemplateIOS/iOSTemplates/Network/Entities;
@@ -565,12 +560,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F697D942C173343006F810D /* Assets.xcassets in Resources */,
-				6F697DED2C17388A006F810D /* .gitkeep in Resources */,
 				6F057AA22C1EB70B00B3195A /* EmptyView.xib in Resources */,
+				6F057AC62C214B8200B3195A /* .gitkeep in Resources */,
 				6F697E0D2C181518006F810D /* HomeCell.xib in Resources */,
 				6F697DF62C173ADF006F810D /* HomeViewController.xib in Resources */,
 				6F057AA82C1EEAA300B3195A /* workouts.json in Resources */,
 				6F057A9B2C1E932E00B3195A /* AssignmentView.xib in Resources */,
+				6F057AC12C214B8200B3195A /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,43 +712,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F057ACB2C214BA200B3195A /* App.swift in Sources */,
+				6F057ACA2C214BA200B3195A /* String.swift in Sources */,
 				6F697DD82C1737DF006F810D /* UIViewController.swift in Sources */,
+				6F057AC72C214B8200B3195A /* PokemonService.swift in Sources */,
 				6F697DCE2C1737DF006F810D /* UIViewExt.swift in Sources */,
 				6F057A9E2C1EA12600B3195A /* DateExt.swift in Sources */,
 				6F697DD02C1737DF006F810D /* DataExt.swift in Sources */,
-				6F057A942C1E825E00B3195A /* Workout.swift in Sources */,
 				6F697DD22C1737DF006F810D /* CollectionExt.swift in Sources */,
+				6F057AC32C214B8200B3195A /* RequestSerializer.swift in Sources */,
+				6F057AC52C214B8200B3195A /* TargetType.swift in Sources */,
 				6F697E0C2C181518006F810D /* HomeCell.swift in Sources */,
-				6F697DDC2C173805006F810D /* App.swift in Sources */,
-				6F697DFD2C173CFE006F810D /* Pokemon.swift in Sources */,
 				6F697E032C173EE9006F810D /* HomeUseCaseImplementation.swift in Sources */,
 				6F057A962C1E925900B3195A /* BaseView.swift in Sources */,
-				6F697DE92C173873006F810D /* TargetType.swift in Sources */,
 				6F057AA42C1ECED700B3195A /* AssignmentViewModel.swift in Sources */,
 				6F697E052C1748E8006F810D /* HomeRepository.swift in Sources */,
 				6F697DF52C173ADF006F810D /* HomeViewController.swift in Sources */,
 				6F697DD42C1737DF006F810D /* StringExt.swift in Sources */,
 				6F697E0F2C1815D6006F810D /* HomeCellViewModel.swift in Sources */,
-				6F697DDA2C1737F0006F810D /* AppConfiguration.swift in Sources */,
 				6F697DD72C1737DF006F810D /* OptionalExt.swift in Sources */,
+				6F057AC22C214B8200B3195A /* Error.swift in Sources */,
+				6F057AC02C214B8200B3195A /* APIWorkout.swift in Sources */,
 				6F697DD32C1737DF006F810D /* UIColorExt.swift in Sources */,
 				6F697E012C173EC5006F810D /* HomeUseCase.swift in Sources */,
-				6F697DEE2C17388A006F810D /* PokemonService.swift in Sources */,
 				6F697DD12C1737DF006F810D /* UITableViewExt.swift in Sources */,
 				6F697D8B2C173341006F810D /* AppDelegate.swift in Sources */,
 				6F697D8D2C173342006F810D /* SceneDelegate.swift in Sources */,
 				6F697DD52C1737DF006F810D /* UIImageViewExt.swift in Sources */,
-				6F697DDE2C17380B006F810D /* String.swift in Sources */,
-				6F697DF12C173895006F810D /* APIWorkout.swift in Sources */,
 				6F697E072C17495D006F810D /* HomeRepositoryImplementation.swift in Sources */,
 				6F057AA02C1EB6D300B3195A /* EmptyView.swift in Sources */,
 				6F057A992C1E92FC00B3195A /* AssignmentView.swift in Sources */,
+				6F057AC42C214B8200B3195A /* ResponseSerializer.swift in Sources */,
 				6F697DD62C1737DF006F810D /* UICollectionViewExt.swift in Sources */,
 				6F697DF82C173B01006F810D /* HomeViewModel.swift in Sources */,
-				6F697DE82C173873006F810D /* ResponseSerializer.swift in Sources */,
+				6F057AB22C214AF600B3195A /* Workout.swift in Sources */,
 				6F057AB02C1EFAF600B3195A /* CacheWorkoutImplementation.swift in Sources */,
-				6F697DE72C173873006F810D /* RequestSerializer.swift in Sources */,
-				6F697DE62C173873006F810D /* Error.swift in Sources */,
+				6F057AB42C214B2900B3195A /* AppConfiguration.swift in Sources */,
 				6F697DCF2C1737DF006F810D /* BundleExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
